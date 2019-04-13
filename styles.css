@@ -1,47 +1,35 @@
-body{
-  background: url(https://cdn.pixabay.com/photo/2019/03/28/15/09/landscape-4087361__340.jpg);
-   background-repeat:no-repeat;
-    background-size:cover;
+body {
+	 background: url(https://cdn.pixabay.com/photo/2019/03/28/15/09/landscape-4087361__340.jpg);
+	 background-repeat: no-repeat;
+	 background-size: cover;
+}
+ header {
+	 height: 30px;
+	 -webkit-box-shadow: 0px 0px 20px 0px rgba(59, 52, 59, 1);
+	 -moz-box-shadow: 0px 0px 20px 0px rgba(59, 52, 59, 1);
+	 box-shadow: 0px 0px 20px 0px rgba(59, 52, 59, 1);
+}
+ .nav {
+	 font-family: 'Open Sans', sans-serif;
+	 color: #808080;
+	 font-weight: 300;
+	 font-size: 0.8rem;
+}
+ .nav .left-side {
+	 float: left;
+}
+ .nav .left-side li {
+	 display: inline-block;
+	 margin-left: 25px;
+	 position: relative;
+	 top: -12px;
+}
+ .nav .right-side {
+	 float: right;
+}
+ .nav .right-side li {
+	 display: inline-block;
+	 margin-right: 25px;
+	 margin-top: 10px;
+}
  
-}
-header{
-  height: 30px;
-  -webkit-box-shadow: 0px 0px 20px 0px rgba(59,52,59,1);
--moz-box-shadow: 0px 0px 20px 0px rgba(59,52,59,1);
-box-shadow: 0px 0px 20px 0px rgba(59,52,59,1);
-}
-.nav{
-  font-family: 'Open Sans', sans-serif;
-  color: #808080;
-  font-weight: 300;
-  font-size: .8rem;
-  
-  .left-side{
-    float: left;
-    
-    li{
-      display: inline-block;
-      margin-left: 25px;
-      position: relative;
-      top: -12px;
-    }
-   }
-  .right-side{
-    float: right;
-    
-    li{
-      display: inline-block;
-      margin-right: 25px;
-      margin-top: 10px;
-      
-    }
-  }
-}
-
-
-// #main .testing{
-//   display: flex;
-//   flex-direction:row;
-//   width: 100px;
-//   background: red;
-// }
