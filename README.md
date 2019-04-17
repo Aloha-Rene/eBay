@@ -1,2 +1,2 @@
 # eBay
-doing a header for ebay style site
+doing a header for ebay style site using html & css
